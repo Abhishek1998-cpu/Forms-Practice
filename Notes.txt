@@ -3,3 +3,16 @@ Sample Notes for Forms and other relevant things
 
 # Issue - In js file not showing autocompletion for html tags - 
 Sol -  Just select the appropriate Language mode at the bottom-right on the screen: set it to JavaScript React.
+
+#Below are the validation patterns taken by searching google:
+ email
+ /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+
+ only numbers
+ /^[0-9]*$/
+
+ only letters
+ /^[A-Za-z]+$/
+
+Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character
+ /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/
